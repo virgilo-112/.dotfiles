@@ -1,0 +1,49 @@
+# ============================================
+# Ghostty — Recommended Terminal Config
+# Docs: https://ghostty.org/docs/config/reference
+# ============================================
+
+# --- Font ---
+# Requires JetBrainsMono Nerd Font (Step 4)
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+
+# --- Theme ---
+# Use one theme, or a light/dark pair that follows system preference
+# List all available themes:  ghostty +list-themes
+theme = light:Neobones Light,dark:Argonaut
+
+# Single-theme alternatives:
+# theme = Catppuccin Mocha
+# theme = Dracula
+# theme = TokyoNight
+# theme = GruvboxDark
+# theme = One Dark
+
+# --- Transparency + blur ---
+# background-opacity: 0.0 (invisible) to 1.0 (opaque)
+background-opacity = 0.92
+# Blur radius — Linux support depends on your compositor
+background-blur-radius = 20
+
+
+# --- Window padding ---
+window-padding-x = 12
+window-padding-y = 10
+
+# --- Cursor ---
+cursor-style = bar
+cursor-style-blink = true
+
+# --- Behaviour ---
+mouse-hide-while-typing = true
+confirm-close-surface = false
+
+# Start maximized (optional)
+maximize = true
+
+# --- Optional extras ---
+# window-decoration = true
+# clipboard-paste-protection = false
+shell-integration = detect
+# working-directory = home
